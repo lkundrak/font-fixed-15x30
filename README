@@ -43,7 +43,7 @@ Font for Linux console, X11 Window System, Microsoft Windows and Open Type
 Bitmap capable systems.
 
 - version	4.49.1
-- sizes		6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28, 16x32
+- sizes		6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28, 15x30, 16x32
 - weights	normal, bold, CRT VGA bold
 - characters	1356
 - format	Bitmap Distribution Format (BDF) version 2.1
@@ -82,8 +82,8 @@ The file names are structured as follows:
 ter-u<SIZE><STYLE>.bdf
 
 <SIZE> is the font height. <STYLE> is n for normal (all sizes), b for bold
-(all sizes except 6x12), and v for CRT VGA bold (8x14 and 8x16 only, uses
-the eight character matrix column).
+(all sizes except 6x12 and 15x30), and v for CRT VGA bold (8x14 and 8x16 only,
+uses the eight character matrix column).
 
 
 1.4. Variants.
@@ -105,8 +105,8 @@ The commands marked with $ can be executed by a regular user.
 The configure commands are optional.
 "make -j8" runs 8 jobs in parallel.
 
-Sizes 6x12, 11x22, 14x28-bold and 16x32-normal are worse than the others.
-Avoid them.
+Sizes 6x12, 11x22, 14x28-bold, 15x30 and 16x32-normal are worse than the
+others.  Avoid them.
 
 210E and 210F are not italic.
 
@@ -353,6 +353,10 @@ Q. The bold 6x12 font...
 
 A. ...does not exist, there is no space for a bold font in a 6x12 matrix.
 However, the "normal" font is somewhere between.
+
+Q. The bold 15x30 font...
+
+A. ...does not exist because nobody made it.
 
 Q. The font works in X11/Motif, but not in GNOME/KDE/Xfce.
 
