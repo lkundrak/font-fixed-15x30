@@ -1,13 +1,13 @@
 STARTFONT 2.1
-FONT -xos4-Terminus-Bold-R-Normal--30-300-75-75-C-150-ISO10646-1
+FONT -xos4-Fixed15x30-Bold-R-Normal--30-300-75-75-C-150-ISO10646-1
 SIZE 30 75 75
 FONTBOUNDINGBOX 15 30 0 -7
 STARTPROPERTIES 20
-FAMILY_NAME "Terminus"
+FAMILY_NAME "Fixed15x30"
 FOUNDRY "xos4"
 SETWIDTH_NAME "Normal"
 ADD_STYLE_NAME ""
-COPYRIGHT "Copyright (C) 2020 Dimitar Toshkov Zhekov"
+COPYRIGHT "Copyright (C) 2024 Lubomir Rintel, Copyright (C) 2020 Dimitar Toshkov Zhekov"
 NOTICE "Licensed under the SIL Open Font License, Version 1.1"
 WEIGHT_NAME "Bold"
 SLANT "R"

@@ -1,5 +1,9 @@
 Copyright (C) 2020 Dimitar Toshkov Zhekov,
+original font (this is a derivative of),
 with Reserved Font Name "Terminus Font".
+
+Copyright (C) 2024 Lubomir Rintel <lkundrak@v3.sk>,
+the 15x30 derivative, no Reserved Font Name.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
